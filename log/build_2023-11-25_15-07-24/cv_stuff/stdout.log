@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/cv_stuff/cv_stuff.egg-info/PKG-INFO
+writing dependency_links to ../../build/cv_stuff/cv_stuff.egg-info/dependency_links.txt
+writing entry points to ../../build/cv_stuff/cv_stuff.egg-info/entry_points.txt
+writing requirements to ../../build/cv_stuff/cv_stuff.egg-info/requires.txt
+writing top-level names to ../../build/cv_stuff/cv_stuff.egg-info/top_level.txt
+reading manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+writing manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cv_stuff/cam_pub.py -> /home/arms/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff
+running install
+running install_lib
+copying /home/arms/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff/cam_pub.py -> /home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff
+byte-compiling /home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff/cam_pub.py to cam_pub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cv_stuff/cv_stuff.egg-info to /home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cam_pub script to /home/arms/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+Installing cam_sub script to /home/arms/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+Installing img_publisher script to /home/arms/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+Installing img_subscriber script to /home/arms/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+writing list of installed files to '/home/arms/turtlebot3_ws/build/cv_stuff/install.log'

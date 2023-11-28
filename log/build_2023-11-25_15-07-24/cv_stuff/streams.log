@@ -1,0 +1,29 @@
+[0.395s] Invoking command in '/home/arms/turtlebot3_ws/src/cv_stuff': PYTHONPATH=/home/arms/turtlebot3_ws/build/cv_stuff/prefix_override:/home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_stuff build --build-base /home/arms/turtlebot3_ws/build/cv_stuff/build install --record /home/arms/turtlebot3_ws/build/cv_stuff/install.log --single-version-externally-managed
+[0.515s] running egg_info
+[0.515s] writing ../../build/cv_stuff/cv_stuff.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ../../build/cv_stuff/cv_stuff.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/cv_stuff/cv_stuff.egg-info/entry_points.txt
+[0.515s] writing requirements to ../../build/cv_stuff/cv_stuff.egg-info/requires.txt
+[0.515s] writing top-level names to ../../build/cv_stuff/cv_stuff.egg-info/top_level.txt
+[0.516s] reading manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+[0.517s] writing manifest file '../../build/cv_stuff/cv_stuff.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.517s] running build_py
+[0.517s] copying cv_stuff/cam_pub.py -> /home/arms/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff
+[0.518s] running install
+[0.518s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.518s]   warnings.warn(
+[0.518s] running install_lib
+[0.518s] copying /home/arms/turtlebot3_ws/build/cv_stuff/build/lib/cv_stuff/cam_pub.py -> /home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff
+[0.518s] byte-compiling /home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff/cam_pub.py to cam_pub.cpython-310.pyc
+[0.518s] running install_data
+[0.519s] running install_egg_info
+[0.520s] removing '/home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info' (and everything under it)
+[0.520s] Copying ../../build/cv_stuff/cv_stuff.egg-info to /home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages/cv_stuff-0.0.0-py3.10.egg-info
+[0.520s] running install_scripts
+[0.532s] Installing cam_pub script to /home/arms/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[0.532s] Installing cam_sub script to /home/arms/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[0.532s] Installing img_publisher script to /home/arms/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[0.532s] Installing img_subscriber script to /home/arms/turtlebot3_ws/install/cv_stuff/lib/cv_stuff
+[0.533s] writing list of installed files to '/home/arms/turtlebot3_ws/build/cv_stuff/install.log'
+[0.545s] Invoked command in '/home/arms/turtlebot3_ws/src/cv_stuff' returned '0': PYTHONPATH=/home/arms/turtlebot3_ws/build/cv_stuff/prefix_override:/home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_stuff build --build-base /home/arms/turtlebot3_ws/build/cv_stuff/build install --record /home/arms/turtlebot3_ws/build/cv_stuff/install.log --single-version-externally-managed

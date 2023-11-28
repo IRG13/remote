@@ -1,0 +1,6 @@
+[console_scripts]
+cam_pub = cv_stuff.cam_pub:main
+cam_sub = cv_stuff.cam_seb:main
+img_publisher = cv_stuff.webcam_pub:main
+img_subscriber = cv_stuff.webcam_sub:main
+

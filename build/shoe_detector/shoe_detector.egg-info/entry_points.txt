@@ -1,0 +1,3 @@
+[console_scripts]
+shoe_detect = shoe_detector.shoe_detector:main
+

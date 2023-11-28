@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/shoe_detector/shoe_detector.egg-info
+writing ../../build/shoe_detector/shoe_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/shoe_detector/shoe_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/shoe_detector/shoe_detector.egg-info/entry_points.txt
+writing requirements to ../../build/shoe_detector/shoe_detector.egg-info/requires.txt
+writing top-level names to ../../build/shoe_detector/shoe_detector.egg-info/top_level.txt
+writing manifest file '../../build/shoe_detector/shoe_detector.egg-info/SOURCES.txt'
+reading manifest file '../../build/shoe_detector/shoe_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/shoe_detector/shoe_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arms/turtlebot3_ws/build/shoe_detector/build
+creating /home/arms/turtlebot3_ws/build/shoe_detector/build/lib
+creating /home/arms/turtlebot3_ws/build/shoe_detector/build/lib/shoe_detector
+copying shoe_detector/__init__.py -> /home/arms/turtlebot3_ws/build/shoe_detector/build/lib/shoe_detector
+copying shoe_detector/shoe_detector.py -> /home/arms/turtlebot3_ws/build/shoe_detector/build/lib/shoe_detector
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector
+copying /home/arms/turtlebot3_ws/build/shoe_detector/build/lib/shoe_detector/__init__.py -> /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector
+copying /home/arms/turtlebot3_ws/build/shoe_detector/build/lib/shoe_detector/shoe_detector.py -> /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector
+byte-compiling /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector/shoe_detector.py to shoe_detector.cpython-310.pyc
+running install_data
+creating /home/arms/turtlebot3_ws/install/shoe_detector/share/ament_index
+creating /home/arms/turtlebot3_ws/install/shoe_detector/share/ament_index/resource_index
+creating /home/arms/turtlebot3_ws/install/shoe_detector/share/ament_index/resource_index/packages
+copying resource/shoe_detector -> /home/arms/turtlebot3_ws/install/shoe_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/arms/turtlebot3_ws/install/shoe_detector/share/shoe_detector
+running install_egg_info
+Copying ../../build/shoe_detector/shoe_detector.egg-info to /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing shoe_detect script to /home/arms/turtlebot3_ws/install/shoe_detector/lib/shoe_detector
+writing list of installed files to '/home/arms/turtlebot3_ws/build/shoe_detector/install.log'

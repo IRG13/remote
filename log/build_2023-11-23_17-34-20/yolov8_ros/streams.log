@@ -1,0 +1,29 @@
+[0.552s] Invoking command in '/home/arms/turtlebot3_ws/src/yolov8_ros/yolov8_ros': PYTHONPATH=/home/arms/turtlebot3_ws/build/yolov8_ros/prefix_override:/home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/arms/turtlebot3_ws/build/yolov8_ros/build install --record /home/arms/turtlebot3_ws/build/yolov8_ros/install.log --single-version-externally-managed
+[0.715s] running egg_info
+[0.716s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[0.716s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[0.716s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[0.716s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[0.716s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[0.717s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[0.717s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[0.718s] running build
+[0.718s] running build_py
+[0.718s] copying yolov8_ros/yolov8_node.py -> /home/arms/turtlebot3_ws/build/yolov8_ros/build/lib/yolov8_ros
+[0.718s] running install
+[0.719s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.719s]   warnings.warn(
+[0.719s] running install_lib
+[0.719s] copying /home/arms/turtlebot3_ws/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[0.720s] byte-compiling /home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-310.pyc
+[0.721s] running install_data
+[0.721s] running install_egg_info
+[0.722s] removing '/home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.722s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[0.723s] running install_scripts
+[0.737s] Installing debug_node script to /home/arms/turtlebot3_ws/install/yolov8_ros/lib/yolov8_ros
+[0.737s] Installing detect_3d_node script to /home/arms/turtlebot3_ws/install/yolov8_ros/lib/yolov8_ros
+[0.738s] Installing tracking_node script to /home/arms/turtlebot3_ws/install/yolov8_ros/lib/yolov8_ros
+[0.738s] Installing yolov8_node script to /home/arms/turtlebot3_ws/install/yolov8_ros/lib/yolov8_ros
+[0.738s] writing list of installed files to '/home/arms/turtlebot3_ws/build/yolov8_ros/install.log'
+[0.754s] Invoked command in '/home/arms/turtlebot3_ws/src/yolov8_ros/yolov8_ros' returned '0': PYTHONPATH=/home/arms/turtlebot3_ws/build/yolov8_ros/prefix_override:/home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/arms/turtlebot3_ws/build/yolov8_ros/build install --record /home/arms/turtlebot3_ws/build/yolov8_ros/install.log --single-version-externally-managed

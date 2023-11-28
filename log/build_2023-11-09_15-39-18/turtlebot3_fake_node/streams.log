@@ -1,0 +1,4 @@
+[0.042s] Invoking command in '/home/arms/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arms/turtlebot3_ws/build/turtlebot3_fake_node -- -j20 -l20
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[4.869s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[5.140s] [100%] Built target turtlebot3_fake_node
