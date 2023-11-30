@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/frontier_stopper/frontier_stopper.egg-info/PKG-INFO
+../../build/frontier_stopper/frontier_stopper.egg-info/SOURCES.txt
+../../build/frontier_stopper/frontier_stopper.egg-info/dependency_links.txt
+../../build/frontier_stopper/frontier_stopper.egg-info/entry_points.txt
+../../build/frontier_stopper/frontier_stopper.egg-info/requires.txt
+../../build/frontier_stopper/frontier_stopper.egg-info/top_level.txt
+../../build/frontier_stopper/frontier_stopper.egg-info/zip-safe
+frontier_stopper/__init__.py
+frontier_stopper/stop_frontier_exploration.py
+resource/frontier_stopper
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

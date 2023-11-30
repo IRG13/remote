@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/frontier_stopper/frontier_stopper.egg-info
+writing ../../build/frontier_stopper/frontier_stopper.egg-info/PKG-INFO
+writing dependency_links to ../../build/frontier_stopper/frontier_stopper.egg-info/dependency_links.txt
+writing entry points to ../../build/frontier_stopper/frontier_stopper.egg-info/entry_points.txt
+writing requirements to ../../build/frontier_stopper/frontier_stopper.egg-info/requires.txt
+writing top-level names to ../../build/frontier_stopper/frontier_stopper.egg-info/top_level.txt
+writing manifest file '../../build/frontier_stopper/frontier_stopper.egg-info/SOURCES.txt'
+reading manifest file '../../build/frontier_stopper/frontier_stopper.egg-info/SOURCES.txt'
+writing manifest file '../../build/frontier_stopper/frontier_stopper.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arms/turtlebot3_ws/build/frontier_stopper/build
+creating /home/arms/turtlebot3_ws/build/frontier_stopper/build/lib
+creating /home/arms/turtlebot3_ws/build/frontier_stopper/build/lib/frontier_stopper
+copying frontier_stopper/stop_frontier_exploration.py -> /home/arms/turtlebot3_ws/build/frontier_stopper/build/lib/frontier_stopper
+copying frontier_stopper/__init__.py -> /home/arms/turtlebot3_ws/build/frontier_stopper/build/lib/frontier_stopper
+running install
+running install_lib
+creating /home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages/frontier_stopper
+copying /home/arms/turtlebot3_ws/build/frontier_stopper/build/lib/frontier_stopper/stop_frontier_exploration.py -> /home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages/frontier_stopper
+copying /home/arms/turtlebot3_ws/build/frontier_stopper/build/lib/frontier_stopper/__init__.py -> /home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages/frontier_stopper
+byte-compiling /home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages/frontier_stopper/stop_frontier_exploration.py to stop_frontier_exploration.cpython-310.pyc
+byte-compiling /home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages/frontier_stopper/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/arms/turtlebot3_ws/install/frontier_stopper/share/ament_index
+creating /home/arms/turtlebot3_ws/install/frontier_stopper/share/ament_index/resource_index
+creating /home/arms/turtlebot3_ws/install/frontier_stopper/share/ament_index/resource_index/packages
+copying resource/frontier_stopper -> /home/arms/turtlebot3_ws/install/frontier_stopper/share/ament_index/resource_index/packages
+copying package.xml -> /home/arms/turtlebot3_ws/install/frontier_stopper/share/frontier_stopper
+running install_egg_info
+Copying ../../build/frontier_stopper/frontier_stopper.egg-info to /home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages/frontier_stopper-0.0.0-py3.10.egg-info
+running install_scripts
+Installing frontier_controller script to /home/arms/turtlebot3_ws/install/frontier_stopper/lib/frontier_stopper
+writing list of installed files to '/home/arms/turtlebot3_ws/build/frontier_stopper/install.log'

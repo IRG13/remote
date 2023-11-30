@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000091] (-) JobUnselected: {'identifier': 'autonomous_exploration'}
+[0.000119] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.000130] (-) JobUnselected: {'identifier': 'shoe_detector'}
+[0.000138] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000145] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000152] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000161] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.000171] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.031533] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.031663] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '/home/arms/turtlebot3_ws/src/m-explore-ros2/explore', '-DCMAKE_INSTALL_PREFIX=/home/arms/turtlebot3_ws/install/explore_lite'], 'cwd': '/home/arms/turtlebot3_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'arms'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arms/turtlebot3_ws/install/yolov8_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arms'), ('OLDPWD', '/home/arms/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/arms/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arms'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arms'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arms/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arms-Legion-5-15IAH7H:@/tmp/.ICE-unix/1935,unix/arms-Legion-5-15IAH7H:/tmp/.ICE-unix/1935'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ca8ef61_4638_4f7c_90a0_f2004f7864ef'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/arms/turtlebot3_ws/install/yolov8_bringup:/home/arms/turtlebot3_ws/install/yolov8_ros:/home/arms/turtlebot3_ws/install/yolov8_msgs:/home/arms/turtlebot3_ws/install/turtlebot3_simulations:/home/arms/turtlebot3_ws/install/turtlebot3_gazebo:/home/arms/turtlebot3_ws/install/turtlebot3_fake_node:/home/arms/turtlebot3_ws/install/shoe_detector:/home/arms/turtlebot3_ws/install/ros2_camera_publish:/home/arms/turtlebot3_ws/install/cv_stuff:/home/arms/turtlebot3_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arms/turtlebot3_ws/build/explore_lite'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arms/turtlebot3_ws/install/yolov8_bringup:/home/arms/turtlebot3_ws/install/yolov8_msgs:/home/arms/turtlebot3_ws/install/turtlebot3_simulations:/home/arms/turtlebot3_ws/install/turtlebot3_gazebo:/home/arms/turtlebot3_ws/install/turtlebot3_fake_node:/home/arms/turtlebot3_ws/install/yolov8_ros:/home/arms/turtlebot3_ws/install/shoe_detector:/home/arms/turtlebot3_ws/install/ros2_camera_publish:/home/arms/turtlebot3_ws/install/cv_stuff:/home/arms/turtlebot3_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.099560] (-) TimerEvent: {}
+[0.116559] (explore_lite) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.171516] (explore_lite) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.177077] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199686] (-) TimerEvent: {}
+[0.218206] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.222111] (explore_lite) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.222182] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.222737] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.224635] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.266404] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.270305] (explore_lite) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.270465] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.270737] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.271190] (explore_lite) StdoutLine: {'line': b'-- BuilD for ROS2: humble\n'}
+[0.274817] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299887] (-) TimerEvent: {}
+[0.376649] (explore_lite) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.400054] (-) TimerEvent: {}
+[0.436544] (explore_lite) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.470947] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.474959] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.481861] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.492647] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500227] (-) TimerEvent: {}
+[0.506570] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.553984] (explore_lite) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.556476] (explore_lite) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.581055] (explore_lite) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.588731] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600398] (-) TimerEvent: {}
+[0.636681] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.636785] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.683679] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.684228] (explore_lite) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700561] (-) TimerEvent: {}
+[0.779195] (explore_lite) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.800775] (-) TimerEvent: {}
+[0.853259] (explore_lite) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.900940] (-) TimerEvent: {}
+[1.001160] (-) TimerEvent: {}
+[1.060662] (explore_lite) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.071312] (explore_lite) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.072284] (explore_lite) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.072345] (explore_lite) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.078299] (explore_lite) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.12 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.101376] (-) TimerEvent: {}
+[1.201614] (-) TimerEvent: {}
+[1.229964] (explore_lite) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[1.291876] (explore_lite) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.301780] (-) TimerEvent: {}
+[1.361054] (explore_lite) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.12 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[1.401949] (-) TimerEvent: {}
+[1.502127] (-) TimerEvent: {}
+[1.602800] (-) TimerEvent: {}
+[1.703035] (-) TimerEvent: {}
+[1.803261] (-) TimerEvent: {}
+[1.903482] (-) TimerEvent: {}
+[2.003797] (-) TimerEvent: {}
+[2.104031] (-) TimerEvent: {}
+[2.160240] (explore_lite) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.204207] (-) TimerEvent: {}
+[2.207524] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.209927] (explore_lite) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.304375] (-) TimerEvent: {}
+[2.404611] (-) TimerEvent: {}
+[2.505071] (-) TimerEvent: {}
+[2.517283] (explore_lite) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.517637] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/arms/turtlebot3_ws/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/arms/turtlebot3_ws/src/m-explore-ros2/explore/include>\n'}
+[2.517719] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.518107] (explore_lite) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.518517] (explore_lite) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.518983] (explore_lite) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.519680] (explore_lite) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.519740] (explore_lite) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.520026] (explore_lite) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.521307] (explore_lite) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.590680] (explore_lite) StdoutLine: {'line': b'-- Generating done\n'}
+[2.591701] (explore_lite) StdoutLine: {'line': b'-- Build files have been written to: /home/arms/turtlebot3_ws/build/explore_lite\n'}
+[2.597989] (explore_lite) CommandEnded: {'returncode': 0}
+[2.598632] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'build'}
+[2.598647] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arms/turtlebot3_ws/build/explore_lite', '--', '-j20', '-l20'], 'cwd': '/home/arms/turtlebot3_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'arms'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arms/turtlebot3_ws/install/yolov8_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arms'), ('OLDPWD', '/home/arms/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/arms/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arms'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arms'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arms/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arms-Legion-5-15IAH7H:@/tmp/.ICE-unix/1935,unix/arms-Legion-5-15IAH7H:/tmp/.ICE-unix/1935'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ca8ef61_4638_4f7c_90a0_f2004f7864ef'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/arms/turtlebot3_ws/install/yolov8_bringup:/home/arms/turtlebot3_ws/install/yolov8_ros:/home/arms/turtlebot3_ws/install/yolov8_msgs:/home/arms/turtlebot3_ws/install/turtlebot3_simulations:/home/arms/turtlebot3_ws/install/turtlebot3_gazebo:/home/arms/turtlebot3_ws/install/turtlebot3_fake_node:/home/arms/turtlebot3_ws/install/shoe_detector:/home/arms/turtlebot3_ws/install/ros2_camera_publish:/home/arms/turtlebot3_ws/install/cv_stuff:/home/arms/turtlebot3_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arms/turtlebot3_ws/build/explore_lite'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arms/turtlebot3_ws/install/yolov8_bringup:/home/arms/turtlebot3_ws/install/yolov8_msgs:/home/arms/turtlebot3_ws/install/turtlebot3_simulations:/home/arms/turtlebot3_ws/install/turtlebot3_gazebo:/home/arms/turtlebot3_ws/install/turtlebot3_fake_node:/home/arms/turtlebot3_ws/install/yolov8_ros:/home/arms/turtlebot3_ws/install/shoe_detector:/home/arms/turtlebot3_ws/install/ros2_camera_publish:/home/arms/turtlebot3_ws/install/cv_stuff:/home/arms/turtlebot3_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[2.605241] (-) TimerEvent: {}
+[2.624646] (explore_lite) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.625325] (explore_lite) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.626738] (explore_lite) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o\x1b[0m\n'}
+[2.627103] (explore_lite) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o\x1b[0m\n'}
+[2.627355] (explore_lite) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o\x1b[0m\n'}
+[2.705446] (-) TimerEvent: {}
+[2.805840] (-) TimerEvent: {}
+[2.906201] (-) TimerEvent: {}
+[3.006598] (-) TimerEvent: {}
+[3.036759] (explore_lite) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.057373] (explore_lite) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[3.106796] (-) TimerEvent: {}
+[3.207188] (-) TimerEvent: {}
+[3.307549] (-) TimerEvent: {}
+[3.407937] (-) TimerEvent: {}
+[3.508263] (-) TimerEvent: {}
+[3.608564] (-) TimerEvent: {}
+[3.708884] (-) TimerEvent: {}
+[3.809204] (-) TimerEvent: {}
+[3.909532] (-) TimerEvent: {}
+[4.009886] (-) TimerEvent: {}
+[4.110286] (-) TimerEvent: {}
+[4.210607] (-) TimerEvent: {}
+[4.311004] (-) TimerEvent: {}
+[4.393412] (explore_lite) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.411109] (-) TimerEvent: {}
+[4.429606] (explore_lite) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[4.443825] (explore_lite) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o\x1b[0m\n'}
+[4.511331] (-) TimerEvent: {}
+[4.611729] (-) TimerEvent: {}
+[4.712111] (-) TimerEvent: {}
+[4.812366] (-) TimerEvent: {}
+[4.912765] (-) TimerEvent: {}
+[5.013154] (-) TimerEvent: {}
+[5.107468] (explore_lite) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable test_explore\x1b[0m\n'}
+[5.113288] (-) TimerEvent: {}
+[5.213684] (-) TimerEvent: {}
+[5.314083] (-) TimerEvent: {}
+[5.414389] (-) TimerEvent: {}
+[5.514659] (-) TimerEvent: {}
+[5.614982] (-) TimerEvent: {}
+[5.715332] (-) TimerEvent: {}
+[5.815647] (-) TimerEvent: {}
+[5.916016] (-) TimerEvent: {}
+[5.930663] (explore_lite) StdoutLine: {'line': b'[ 90%] Built target test_explore\n'}
+[6.016237] (-) TimerEvent: {}
+[6.116579] (-) TimerEvent: {}
+[6.216906] (-) TimerEvent: {}
+[6.317231] (-) TimerEvent: {}
+[6.417551] (-) TimerEvent: {}
+[6.517879] (-) TimerEvent: {}
+[6.618211] (-) TimerEvent: {}
+[6.718444] (-) TimerEvent: {}
+[6.818715] (-) TimerEvent: {}
+[6.919028] (-) TimerEvent: {}
+[7.019352] (-) TimerEvent: {}
+[7.119671] (-) TimerEvent: {}
+[7.219982] (-) TimerEvent: {}
+[7.320297] (-) TimerEvent: {}
+[7.420613] (-) TimerEvent: {}
+[7.520892] (-) TimerEvent: {}
+[7.621174] (-) TimerEvent: {}
+[7.721556] (-) TimerEvent: {}
+[7.821862] (-) TimerEvent: {}
+[7.922173] (-) TimerEvent: {}
+[8.022382] (-) TimerEvent: {}
+[8.122622] (-) TimerEvent: {}
+[8.222933] (-) TimerEvent: {}
+[8.323246] (-) TimerEvent: {}
+[8.423563] (-) TimerEvent: {}
+[8.523877] (-) TimerEvent: {}
+[8.624185] (-) TimerEvent: {}
+[8.724497] (-) TimerEvent: {}
+[8.824805] (-) TimerEvent: {}
+[8.925120] (-) TimerEvent: {}
+[9.025436] (-) TimerEvent: {}
+[9.125751] (-) TimerEvent: {}
+[9.226130] (-) TimerEvent: {}
+[9.326358] (-) TimerEvent: {}
+[9.419992] (explore_lite) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable explore\x1b[0m\n'}
+[9.426425] (-) TimerEvent: {}
+[9.526637] (-) TimerEvent: {}
+[9.626960] (-) TimerEvent: {}
+[9.727292] (-) TimerEvent: {}
+[9.827585] (-) TimerEvent: {}
+[9.927909] (-) TimerEvent: {}
+[10.028202] (-) TimerEvent: {}
+[10.128531] (-) TimerEvent: {}
+[10.228857] (-) TimerEvent: {}
+[10.329156] (-) TimerEvent: {}
+[10.429490] (-) TimerEvent: {}
+[10.529830] (-) TimerEvent: {}
+[10.550037] (explore_lite) StdoutLine: {'line': b'[100%] Built target explore\n'}
+[10.561529] (explore_lite) CommandEnded: {'returncode': 0}
+[10.580636] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'install'}
+[10.585868] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arms/turtlebot3_ws/build/explore_lite'], 'cwd': '/home/arms/turtlebot3_ws/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'arms'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arms/turtlebot3_ws/install/yolov8_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arms'), ('OLDPWD', '/home/arms/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/arms/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arms'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'arms'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arms/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arms-Legion-5-15IAH7H:@/tmp/.ICE-unix/1935,unix/arms-Legion-5-15IAH7H:/tmp/.ICE-unix/1935'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4ca8ef61_4638_4f7c_90a0_f2004f7864ef'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/arms/turtlebot3_ws/install/yolov8_bringup:/home/arms/turtlebot3_ws/install/yolov8_ros:/home/arms/turtlebot3_ws/install/yolov8_msgs:/home/arms/turtlebot3_ws/install/turtlebot3_simulations:/home/arms/turtlebot3_ws/install/turtlebot3_gazebo:/home/arms/turtlebot3_ws/install/turtlebot3_fake_node:/home/arms/turtlebot3_ws/install/shoe_detector:/home/arms/turtlebot3_ws/install/ros2_camera_publish:/home/arms/turtlebot3_ws/install/cv_stuff:/home/arms/turtlebot3_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arms/turtlebot3_ws/build/explore_lite'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arms/turtlebot3_ws/install/yolov8_ros/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/ros2_camera_publish/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/cv_stuff/lib/python3.10/site-packages:/home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arms/turtlebot3_ws/install/yolov8_bringup:/home/arms/turtlebot3_ws/install/yolov8_msgs:/home/arms/turtlebot3_ws/install/turtlebot3_simulations:/home/arms/turtlebot3_ws/install/turtlebot3_gazebo:/home/arms/turtlebot3_ws/install/turtlebot3_fake_node:/home/arms/turtlebot3_ws/install/yolov8_ros:/home/arms/turtlebot3_ws/install/shoe_detector:/home/arms/turtlebot3_ws/install/ros2_camera_publish:/home/arms/turtlebot3_ws/install/cv_stuff:/home/arms/turtlebot3_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[10.591627] (explore_lite) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.591855] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/include/explore/\n'}
+[10.591909] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/include/explore//costmap_client.h\n'}
+[10.591944] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/include/explore//explore.h\n'}
+[10.591976] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/include/explore//frontier_search.h\n'}
+[10.592006] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/include/explore//costmap_tools.h\n'}
+[10.592035] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/config\n'}
+[10.592472] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/config/params.yaml\n'}
+[10.592547] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml\n'}
+[10.592585] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/launch\n'}
+[10.592621] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py\n'}
+[10.592650] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/lib/explore_lite/explore\n'}
+[10.596274] (explore_lite) StdoutLine: {'line': b'-- Set runtime path of "/home/arms/turtlebot3_ws/install/explore_lite/lib/explore_lite/explore" to ""\n'}
+[10.596339] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite\n'}
+[10.596370] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite\n'}
+[10.596399] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh\n'}
+[10.596425] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv\n'}
+[10.596450] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/path.sh\n'}
+[10.596475] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/path.dsv\n'}
+[10.596631] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.bash\n'}
+[10.596668] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.sh\n'}
+[10.596696] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.zsh\n'}
+[10.596720] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.dsv\n'}
+[10.596743] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/package.dsv\n'}
+[10.596767] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite\n'}
+[10.596790] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.596813] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake\n'}
+[10.596835] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake\n'}
+[10.596858] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/arms/turtlebot3_ws/install/explore_lite/share/explore_lite/package.xml\n'}
+[10.597556] (explore_lite) CommandEnded: {'returncode': 0}
+[10.629998] (-) TimerEvent: {}
+[10.672396] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 0}
+[10.672657] (-) EventReactorShutdown: {}

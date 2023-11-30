@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000079] (-) JobUnselected: {'identifier': 'autonomous_exploration'}
+[0.000094] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.000103] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.000110] (-) JobUnselected: {'identifier': 'shoe_detector'}
+[0.000118] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000125] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000132] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000139] (-) EventReactorShutdown: {}

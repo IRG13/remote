@@ -1,0 +1,3 @@
+[console_scripts]
+frontier_controller = frontier_stopper.stop_frontier_exploration.py:main
+

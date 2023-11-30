@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector/shoe_detector.py", line 76
+    show=True for debugging
+              ^^^
+SyntaxError: invalid syntax
+

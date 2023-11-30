@@ -19,8 +19,7 @@ class ShoeDetectorNode(Node):
     def __init__(self) -> None:
         super().__init__("shoedetector_node")
 
-        # Current model is just yolov8n.pt renamed as shoes.pt for testing, todo
-        self.declare_parameter("model", "/home/arms/turtlebot3_ws/yolov8n.pt") 
+        self.declare_parameter("model", "/home/arms/turtlebot3_ws/src/shoe_detector/shoe_detector/sandals.pt") 
         model = self.get_parameter(
             "model").get_parameter_value().string_value
 
@@ -28,7 +27,7 @@ class ShoeDetectorNode(Node):
         self.device = self.get_parameter(
             "device").get_parameter_value().string_value
 
-        self.declare_parameter("threshold", 0.5)
+        self.declare_parameter("threshold", 0.8)
         self.threshold = self.get_parameter(
             "threshold").get_parameter_value().double_value
 
@@ -74,26 +73,19 @@ class ShoeDetectorNode(Node):
                 stream=False,
                 conf=self.threshold,
                 device=self.device,
-                # show=True for debugging
+                show=True 
             )
             results: Results = results[0].cuda()
  
             pub = Bool()
-            ctr = 0
-            for result in results:
-                detection_count = result.boxes.shape[0]
-                for i in range(detection_count):
-                    cls = int(result.boxes.cls[i].item())
-                    name = result.names[cls]
-                    if name == "open":
-                        print('Sandal detected')
-                        self.sandaldetected = True
-
+            for r in results:
+                if r.boxes:
+                    self.sandaldetected = True
             # If sandal detected
             if self.sandaldetected:
                 pub.data = False
                 self._pub.publish(pub)
-
+                self.sandaldetected = False
             # if nothing or shoe detected, just return True since theres no shoe
             else:
                 pub.data = True

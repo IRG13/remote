@@ -1,0 +1,39 @@
+[0.409s] Invoking command in '/home/arms/turtlebot3_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration': PYTHONPATH=/home/arms/turtlebot3_ws/build/autonomous_exploration/prefix_override:/home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/autonomous_exploration build --build-base /home/arms/turtlebot3_ws/build/autonomous_exploration/build install --record /home/arms/turtlebot3_ws/build/autonomous_exploration/install.log --single-version-externally-managed
+[0.526s] running egg_info
+[0.526s] creating ../../../build/autonomous_exploration/autonomous_exploration.egg-info
+[0.527s] writing ../../../build/autonomous_exploration/autonomous_exploration.egg-info/PKG-INFO
+[0.527s] writing dependency_links to ../../../build/autonomous_exploration/autonomous_exploration.egg-info/dependency_links.txt
+[0.527s] writing entry points to ../../../build/autonomous_exploration/autonomous_exploration.egg-info/entry_points.txt
+[0.527s] writing requirements to ../../../build/autonomous_exploration/autonomous_exploration.egg-info/requires.txt
+[0.527s] writing top-level names to ../../../build/autonomous_exploration/autonomous_exploration.egg-info/top_level.txt
+[0.527s] writing manifest file '../../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[0.528s] reading manifest file '../../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[0.528s] writing manifest file '../../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.528s] creating /home/arms/turtlebot3_ws/build/autonomous_exploration/build
+[0.529s] creating /home/arms/turtlebot3_ws/build/autonomous_exploration/build/lib
+[0.529s] creating /home/arms/turtlebot3_ws/build/autonomous_exploration/build/lib/autonomous_exploration
+[0.529s] copying autonomous_exploration/control.py -> /home/arms/turtlebot3_ws/build/autonomous_exploration/build/lib/autonomous_exploration
+[0.529s] copying autonomous_exploration/__init__.py -> /home/arms/turtlebot3_ws/build/autonomous_exploration/build/lib/autonomous_exploration
+[0.529s] running install
+[0.538s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.538s]   warnings.warn(
+[0.538s] running install_lib
+[0.538s] creating /home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration
+[0.538s] copying /home/arms/turtlebot3_ws/build/autonomous_exploration/build/lib/autonomous_exploration/control.py -> /home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration
+[0.538s] copying /home/arms/turtlebot3_ws/build/autonomous_exploration/build/lib/autonomous_exploration/__init__.py -> /home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration
+[0.538s] byte-compiling /home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration/control.py to control.cpython-310.pyc
+[0.540s] byte-compiling /home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration/__init__.py to __init__.cpython-310.pyc
+[0.541s] running install_data
+[0.541s] creating /home/arms/turtlebot3_ws/install/autonomous_exploration/share/ament_index
+[0.541s] creating /home/arms/turtlebot3_ws/install/autonomous_exploration/share/ament_index/resource_index
+[0.541s] creating /home/arms/turtlebot3_ws/install/autonomous_exploration/share/ament_index/resource_index/packages
+[0.541s] copying resource/autonomous_exploration -> /home/arms/turtlebot3_ws/install/autonomous_exploration/share/ament_index/resource_index/packages
+[0.541s] copying package.xml -> /home/arms/turtlebot3_ws/install/autonomous_exploration/share/autonomous_exploration
+[0.541s] running install_egg_info
+[0.542s] Copying ../../../build/autonomous_exploration/autonomous_exploration.egg-info to /home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info
+[0.542s] running install_scripts
+[0.552s] Installing control script to /home/arms/turtlebot3_ws/install/autonomous_exploration/lib/autonomous_exploration
+[0.552s] writing list of installed files to '/home/arms/turtlebot3_ws/build/autonomous_exploration/install.log'
+[0.564s] Invoked command in '/home/arms/turtlebot3_ws/src/ROS2-FrontierBaseExplorationForAutonomousRobot/autonomous_exploration' returned '0': PYTHONPATH=/home/arms/turtlebot3_ws/build/autonomous_exploration/prefix_override:/home/arms/turtlebot3_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/autonomous_exploration build --build-base /home/arms/turtlebot3_ws/build/autonomous_exploration/build install --record /home/arms/turtlebot3_ws/build/autonomous_exploration/install.log --single-version-externally-managed
