@@ -27,7 +27,7 @@ class ShoeDetectorNode(Node):
         self.device = self.get_parameter(
             "device").get_parameter_value().string_value
 
-        self.declare_parameter("threshold", 0.8)
+        self.declare_parameter("threshold", 0.7)
         self.threshold = self.get_parameter(
             "threshold").get_parameter_value().double_value
 
@@ -45,9 +45,13 @@ class ShoeDetectorNode(Node):
         )
 
         self._pub = self.create_publisher(Bool, 'shoe_detected', 10)
+        self._pub2 = self.create_publisher(
+            Bool, "explore/resume", 10
+        )
 
         self._srv = self.create_service(SetBool, "enable", self.enable_cb)
         self.sandaldetected = False
+
 
     def enable_cb(
         self,
@@ -85,6 +89,7 @@ class ShoeDetectorNode(Node):
             if self.sandaldetected:
                 pub.data = False
                 self._pub.publish(pub)
+                self._pub2.publish(pub) # publish to /explore/resume false to stop exploration
                 self.sandaldetected = False
             # if nothing or shoe detected, just return True since theres no shoe
             else:

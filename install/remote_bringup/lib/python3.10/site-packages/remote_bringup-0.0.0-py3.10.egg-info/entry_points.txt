@@ -1,0 +1,3 @@
+[console_scripts]
+waiter = remote_bringup.waiter:wait_for_topic
+

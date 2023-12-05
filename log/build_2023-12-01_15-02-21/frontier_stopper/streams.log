@@ -1,0 +1,23 @@
+[1.004s] Invoking command in '/home/arms/turtlebot3_ws/src/frontier_stopper': PYTHONPATH=/home/arms/turtlebot3_ws/build/frontier_stopper/prefix_override:/home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/frontier_stopper build --build-base /home/arms/turtlebot3_ws/build/frontier_stopper/build install --record /home/arms/turtlebot3_ws/build/frontier_stopper/install.log --single-version-externally-managed
+[1.157s] running egg_info
+[1.157s] writing ../../build/frontier_stopper/frontier_stopper.egg-info/PKG-INFO
+[1.158s] writing dependency_links to ../../build/frontier_stopper/frontier_stopper.egg-info/dependency_links.txt
+[1.158s] writing entry points to ../../build/frontier_stopper/frontier_stopper.egg-info/entry_points.txt
+[1.158s] writing requirements to ../../build/frontier_stopper/frontier_stopper.egg-info/requires.txt
+[1.158s] writing top-level names to ../../build/frontier_stopper/frontier_stopper.egg-info/top_level.txt
+[1.158s] reading manifest file '../../build/frontier_stopper/frontier_stopper.egg-info/SOURCES.txt'
+[1.159s] writing manifest file '../../build/frontier_stopper/frontier_stopper.egg-info/SOURCES.txt'
+[1.159s] running build
+[1.159s] running build_py
+[1.160s] running install
+[1.160s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.160s]   warnings.warn(
+[1.161s] running install_lib
+[1.161s] running install_data
+[1.161s] running install_egg_info
+[1.162s] removing '/home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages/frontier_stopper-0.0.0-py3.10.egg-info' (and everything under it)
+[1.162s] Copying ../../build/frontier_stopper/frontier_stopper.egg-info to /home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages/frontier_stopper-0.0.0-py3.10.egg-info
+[1.163s] running install_scripts
+[1.177s] Installing frontier_controller script to /home/arms/turtlebot3_ws/install/frontier_stopper/lib/frontier_stopper
+[1.177s] writing list of installed files to '/home/arms/turtlebot3_ws/build/frontier_stopper/install.log'
+[1.195s] Invoked command in '/home/arms/turtlebot3_ws/src/frontier_stopper' returned '0': PYTHONPATH=/home/arms/turtlebot3_ws/build/frontier_stopper/prefix_override:/home/arms/turtlebot3_ws/install/frontier_stopper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/frontier_stopper build --build-base /home/arms/turtlebot3_ws/build/frontier_stopper/build install --record /home/arms/turtlebot3_ws/build/frontier_stopper/install.log --single-version-externally-managed
