@@ -52,6 +52,8 @@ class ShoeDetectorNode(Node):
         self._srv = self.create_service(SetBool, "enable", self.enable_cb)
         self.sandaldetected = False
 
+        self.pd = 0
+
 
     def enable_cb(
         self,
@@ -84,9 +86,12 @@ class ShoeDetectorNode(Node):
             pub = Bool()
             for r in results:
                 if r.boxes:
-                    self.sandaldetected = True
-            # If sandal detected
-            if self.sandaldetected:
+                    self.pd += 1
+                else: 
+                    self.pd -= 1
+            # If sandal detected more than 4 instances
+            if self.pd > 4:
+                self.pd = 0
                 pub.data = False
                 self._pub.publish(pub)
                 self._pub2.publish(pub) # publish to /explore/resume false to stop exploration
