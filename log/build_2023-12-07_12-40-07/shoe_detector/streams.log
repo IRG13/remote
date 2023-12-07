@@ -1,0 +1,26 @@
+[0.404s] Invoking command in '/home/arms/turtlebot3_ws/src/shoe_detector': PYTHONPATH=/home/arms/turtlebot3_ws/build/shoe_detector/prefix_override:/home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/shoe_detector build --build-base /home/arms/turtlebot3_ws/build/shoe_detector/build install --record /home/arms/turtlebot3_ws/build/shoe_detector/install.log --single-version-externally-managed
+[0.527s] running egg_info
+[0.528s] writing ../../build/shoe_detector/shoe_detector.egg-info/PKG-INFO
+[0.528s] writing dependency_links to ../../build/shoe_detector/shoe_detector.egg-info/dependency_links.txt
+[0.528s] writing entry points to ../../build/shoe_detector/shoe_detector.egg-info/entry_points.txt
+[0.528s] writing requirements to ../../build/shoe_detector/shoe_detector.egg-info/requires.txt
+[0.528s] writing top-level names to ../../build/shoe_detector/shoe_detector.egg-info/top_level.txt
+[0.529s] reading manifest file '../../build/shoe_detector/shoe_detector.egg-info/SOURCES.txt'
+[0.529s] writing manifest file '../../build/shoe_detector/shoe_detector.egg-info/SOURCES.txt'
+[0.529s] running build
+[0.529s] running build_py
+[0.529s] copying shoe_detector/shoe_detector.py -> /home/arms/turtlebot3_ws/build/shoe_detector/build/lib/shoe_detector
+[0.530s] running install
+[0.530s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.530s]   warnings.warn(
+[0.530s] running install_lib
+[0.530s] copying /home/arms/turtlebot3_ws/build/shoe_detector/build/lib/shoe_detector/shoe_detector.py -> /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector
+[0.530s] byte-compiling /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector/shoe_detector.py to shoe_detector.cpython-310.pyc
+[0.531s] running install_data
+[0.531s] running install_egg_info
+[0.532s] removing '/home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[0.533s] Copying ../../build/shoe_detector/shoe_detector.egg-info to /home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages/shoe_detector-0.0.0-py3.10.egg-info
+[0.533s] running install_scripts
+[0.544s] Installing shoe_detect script to /home/arms/turtlebot3_ws/install/shoe_detector/lib/shoe_detector
+[0.544s] writing list of installed files to '/home/arms/turtlebot3_ws/build/shoe_detector/install.log'
+[0.557s] Invoked command in '/home/arms/turtlebot3_ws/src/shoe_detector' returned '0': PYTHONPATH=/home/arms/turtlebot3_ws/build/shoe_detector/prefix_override:/home/arms/turtlebot3_ws/install/shoe_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/shoe_detector build --build-base /home/arms/turtlebot3_ws/build/shoe_detector/build install --record /home/arms/turtlebot3_ws/build/shoe_detector/install.log --single-version-externally-managed

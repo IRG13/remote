@@ -27,7 +27,7 @@ class ShoeDetectorNode(Node):
         self.device = self.get_parameter(
             "device").get_parameter_value().string_value
 
-        self.declare_parameter("threshold", 0.7)
+        self.declare_parameter("threshold", 0.81)
         self.threshold = self.get_parameter(
             "threshold").get_parameter_value().double_value
 
@@ -53,7 +53,7 @@ class ShoeDetectorNode(Node):
         self.sandaldetected = False
 
         self.pd = 0
-
+        self.tempdet = 0
 
     def enable_cb(
         self,
@@ -84,12 +84,17 @@ class ShoeDetectorNode(Node):
             results: Results = results[0].cuda()
  
             pub = Bool()
+            self.tempdet = 0
             for r in results:
                 if r.boxes:
-                    self.pd += 1
-                else: 
-                    self.pd -= 1
+                    self.tempdet = 1
             # If sandal detected more than 4 instances
+            if self.tempdet:
+                self.pd += 1
+            else:
+                if self.pd > 0:
+                     self.pd -= 1
+
             if self.pd > 4:
                 self.pd = 0
                 pub.data = False
